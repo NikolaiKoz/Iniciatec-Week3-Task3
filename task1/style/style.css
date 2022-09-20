@@ -48,6 +48,10 @@ main > section > p{
     font-size: 2em;
 }
 
+main > section > ol{
+    margin-left: 2em;
+}
+
 main > section > ol > li{
     margin-bottom: 1.5em;
 }
