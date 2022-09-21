@@ -40,6 +40,22 @@ div > p{
     justify-content: space-between;
 }
 
-table{
+table, .container__text{
     width: 30em;
+}
+
+.spaces{
+    margin: 1em 0;
+}
+
+td > p{
+    margin: 0.5em 0;
+}
+.headerText{
+    display: block;
+    width: 30em;
+}
+
+h1{
+    text-align: center;
 }
