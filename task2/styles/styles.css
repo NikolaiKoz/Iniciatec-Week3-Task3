@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.headerText{
+    margin: 1em 0;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.line{
+    text-decoration-line: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.important{
+    display: inline;
+}
+
+div > p{
+    display: inline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+table{
+    width: 30em;
+}
